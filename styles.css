@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #121212;  
+}
+
+/*===================== STYLES FOR THE HERO SECTION ======================*/
+
+#hero-section {
+    width: 720px;
+    height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('images/Header-bg-img.jpg');
+    background-size: cover;
+    padding-top: 1px;
+}
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    background: #3D3731;
+    text-align: center;
+    width: 350px;
+    padding: 4px 5px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 18.72px;
+    line-height: 27px;
+    height: 60px;
+    color: #23344E;
+    background: #CDB08D;
+    text-align: center;
+    width: 412px;
+    padding-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px #000000;
+}
+
+/*===================== STYLES FOR THE ACTIVITIES SECTION ======================*/
+
+#activity-section {
+    width: 720px;
+    height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #e0dee3;
+    padding-top: 1px;  
+}
+
+h3 {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3d3731;
+    margin-bottom: 35px;
+}
+
+.places-to-visit {
+    color: #3d3731;
+    padding-bottom: 5px;
+}
+
+.places-to-visit:hover {
+    color: #684281;
+    border-bottom: 3px solid #3d3731;
+    padding-bottom: 3px;
+}
+
+.flex-box-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flexbox-content {
+    width: 200px;
+    height: 235px;
+    cursor: pointer;
+    transition: 0.1s ease-out;
+}
+
+.flexbox-content:hover {
+    border-bottom: 5px solid #684281;
+}
+
+.places-to-visit-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    margin-bottom: 18px;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0, 0.25)
+} 
+
+h4 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #23344E;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#reduce-h4-margin {
+    margin-bottom: 0px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #23344E;
+    text-align: center; 
+    line-height: 22px;
+}
+
+/*===================== STYLES FOR THE GUIDE SECTION ======================*/
+#guide-section {
+    width: 720px;
+    height: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ebe8e8;
+    padding-top: 1px; 
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 225px;
+    background: #afc3b7;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #23344E;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card:hover {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 225px;
+    background: #afc3b7;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 0px #23344E;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.godwin-img {
+    width: 148px;
+    height: 187px;
+    margin-top: 21px;
+}
+
+.card-text {
+    width: 234px;
+    height: 187px;
+}
+
+.remove-default-h3-style {
+    margin-bottom: 26px;
+    color: #23344E;
+}
+
+.italic {
+    font-style: italic;
+    margin-bottom: 13px;
+}
+
+/*===================== STYLES FOR THE FOOTER SECTION ======================*/
+
+#footer-section {
+    width: 720px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #684281;
+    padding-top: 1px; 
+}
+
+.foter-text {
+    font-size: 15px;
+    margin-top: 26px;
+    color: #FFFFFF;
+}
+
+.footer-text-bold {
+    color: #A2ABBA;
+    font-weight: 700;
+}
+
+#footer-section a {
+    text-decoration: none;
+    color: #A2ABBA;
+}
+
+#footer-section a:hover {
+    text-decoration: underline;
+}
+
+#footer-section a:visited {
+    text-decoration: underline;
+    color: #A2ABBA;
+} 
